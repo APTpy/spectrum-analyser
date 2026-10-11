@@ -1,0 +1,29 @@
+{
+  "version": "0.2",
+  "curated_on": "2026-10-08",
+  "scope": "APT ion assignments in Fe-Mn-C steels; formulas restricted to Fe, Mn, C, Si, Al",
+  "note": "These are published candidate assignments, not proof of an ion in a new spectrum. main_nominal_mz is approximate and isotopologues must be calculated separately.",
+  "ions": [
+    {"formula": "C", "charge": 2, "label": "C²⁺", "kind": "atomic", "main_nominal_mz": 6, "context": "core", "evidence": "direct", "source": "https://doi.org/10.1016/j.patter.2020.100192", "locator": "Table 2", "caveat": ""},
+    {"formula": "C", "charge": 1, "label": "C⁺", "kind": "atomic", "main_nominal_mz": 12, "context": "core", "evidence": "direct", "source": "https://doi.org/10.1016/j.patter.2020.100192", "locator": "Table 2", "caveat": "Possible C₂²⁺ coincidence at 12 Da does not verify C₂²⁺."},
+    {"formula": "Fe", "charge": 1, "label": "Fe⁺", "kind": "atomic", "main_nominal_mz": 56, "context": "core", "evidence": "overlap", "source": "https://doi.org/10.1016/j.patter.2020.100192", "locator": "Table 2", "caveat": "Co-assigned with FeH⁺ in the cited Fe-Mn-C-Al spectrum."},
+    {"formula": "Fe", "charge": 2, "label": "Fe²⁺", "kind": "atomic", "main_nominal_mz": 28, "context": "core", "evidence": "direct", "source": "https://doi.org/10.1016/j.patter.2020.100192", "locator": "Table 2", "caveat": "⁵⁴Fe²⁺ at 27 Da overlaps Al⁺."},
+    {"formula": "Fe", "charge": 3, "label": "Fe³⁺", "kind": "atomic", "main_nominal_mz": 18.7, "context": "broader", "evidence": "direct", "source": "https://doi.org/10.1016/j.actamat.2016.12.013", "locator": "Section 3.3", "caveat": "Also reported in X65 pipeline steel; may be minor in medium-Mn steel."},
+    {"formula": "Mn", "charge": 1, "label": "Mn⁺", "kind": "atomic", "main_nominal_mz": 55, "context": "core", "evidence": "direct", "source": "https://doi.org/10.1016/j.patter.2020.100192", "locator": "Table 2", "caveat": ""},
+    {"formula": "Mn", "charge": 2, "label": "Mn²⁺", "kind": "atomic", "main_nominal_mz": 27.5, "context": "core", "evidence": "direct", "source": "https://doi.org/10.1016/j.actamat.2013.10.064", "locator": "Section 2.3, APT mass-spectra paragraph", "caveat": ""},
+    {"formula": "Si", "charge": 2, "label": "Si²⁺", "kind": "atomic", "main_nominal_mz": 14, "context": "core", "evidence": "direct", "source": "https://doi.org/10.1016/j.actamat.2013.10.064", "locator": "Section 2.3, APT mass-spectra paragraph", "caveat": "²⁸Si²⁺ at 14 Da may overlap N⁺ when N is included."},
+    {"formula": "Si", "charge": 1, "label": "Si⁺", "kind": "atomic", "main_nominal_mz": 28, "context": "broader", "evidence": "overlap", "source": "https://doi.org/10.1038/s41529-024-00528-9", "locator": "Supplementary Table S1", "caveat": "28–29 Da Si⁺ isotopes overlap Fe²⁺; table also lists ³⁰Si⁺."},
+    {"formula": "Al", "charge": 1, "label": "Al⁺", "kind": "atomic", "main_nominal_mz": 27, "context": "core", "evidence": "overlap", "source": "https://doi.org/10.1016/j.msea.2020.139258", "locator": "APT methods, mass-to-charge peak list and 27 Da decomposition", "caveat": "Authors split the 27 Da peak between ²⁷Al⁺ and ⁵⁴Fe²⁺; not a unique peak."},
+    {"formula": "Al", "charge": 2, "label": "Al²⁺", "kind": "atomic", "main_nominal_mz": 13.5, "context": "core", "evidence": "direct", "source": "https://doi.org/10.1016/j.patter.2020.100192", "locator": "Table 2", "caveat": ""},
+    {"formula": "Al", "charge": 3, "label": "Al³⁺", "kind": "atomic", "main_nominal_mz": 9, "context": "core", "evidence": "direct", "source": "https://doi.org/10.1016/j.patter.2020.100192", "locator": "Table 2", "caveat": ""},
+    {"formula": "C2", "charge": 1, "label": "C₂⁺", "kind": "carbon_cluster", "main_nominal_mz": 24, "context": "core", "evidence": "overlap", "source": "https://doi.org/10.1016/j.actamat.2013.10.064", "locator": "Section 2.3, APT mass-spectra paragraph", "caveat": "24–26 Da overlaps C₄²⁺ isotopologues."},
+    {"formula": "C3", "charge": 1, "label": "C₃⁺", "kind": "carbon_cluster", "main_nominal_mz": 36, "context": "core", "evidence": "direct", "source": "https://doi.org/10.1016/j.actamat.2013.10.064", "locator": "Section 2.3, APT mass-spectra paragraph", "caveat": "Can overlap oxygen-containing species outside this restricted formula set."},
+    {"formula": "C3", "charge": 2, "label": "C₃²⁺", "kind": "carbon_cluster", "main_nominal_mz": 18, "context": "core", "evidence": "direct", "source": "https://doi.org/10.1016/j.patter.2020.100192", "locator": "Table 2", "caveat": ""},
+    {"formula": "C4", "charge": 1, "label": "C₄⁺", "kind": "carbon_cluster", "main_nominal_mz": 48, "context": "core", "evidence": "direct", "source": "https://doi.org/10.1016/j.actamat.2016.06.044", "locator": "APT mass-spectra paragraph", "caveat": "Reported in the Si-containing comparison steel."},
+    {"formula": "C4", "charge": 2, "label": "C₄²⁺", "kind": "carbon_cluster", "main_nominal_mz": 24, "context": "core", "evidence": "overlap", "source": "https://doi.org/10.1016/j.actamat.2013.10.064", "locator": "Section 2.3, APT mass-spectra paragraph", "caveat": "Mixed-isotope peak at 24.5 Da supports its contribution; 24–26 Da overlaps C₂⁺."},
+    {"formula": "FeC2", "charge": 2, "label": "FeC₂²⁺", "kind": "mixed", "main_nominal_mz": 40, "context": "core", "evidence": "overlap", "source": "https://doi.org/10.1016/j.msea.2020.139258", "locator": "APT methods, mass-to-charge peak list; also Wei et al. 2021 Table 2", "caveat": "Two studies assigned it; Wei's algorithm also proposed CN₂⁺ and C₂O⁺."}
+  ],
+  "possible_only": [
+    {"formula": "C2", "charge": 2, "label": "C₂²⁺", "main_nominal_mz": 12, "source": "https://doi.org/10.1016/j.actamat.2024.120327", "locator": "Figure 2 and corresponding text", "caveat": "Used only as an intentionally upper-bound alternative to C⁺ at 12 Da, not uniquely identified."}
+  ]
+}
