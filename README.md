@@ -1,5 +1,7 @@
 # APTpy — Spectrum Analyser
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23296361.svg)](https://doi.org/10.5281/zenodo.23296361)
+
 APTpy is an open-source project intended to grow into a practical, accessible
 toolbox for atom-probe tomography (APT) data analysis. **APTpy — Spectrum
 Analyser** is the first component of that larger project.
@@ -228,8 +230,9 @@ Suggested acknowledgment:
 
 Suggested software citation:
 
-> Aliabad, R. S. (2026). *APTpy — Spectrum Analyser*. GitHub repository:
-> <https://github.com/R-Surki/apt-candidate-list-maker>. Accessed [DATE].
+> Aliabad, R. S. (2026). *APTpy — Spectrum Analyser* (Version 1.0.1)
+> [Computer software]. Zenodo.
+> <https://doi.org/10.5281/zenodo.23296361>
 
 Suggested APAV citation:
 
